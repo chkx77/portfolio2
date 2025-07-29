@@ -165,7 +165,7 @@ function LandingPage() {
     <li
       title="Aplicación PHP/Laravel para gestión CRUD simple de negocios"
       style={{ cursor: "pointer" }}
-      onClick={() => alert("Próximamente...")}
+      onClick={() => window.open("https://actua-o-mori.vercel.app/", "_blank")}
       className="project-card"
     >
       <img
@@ -179,7 +179,7 @@ function LandingPage() {
     <li
       title="Portafolio web personal con animaciones retro y estilo personalizado"
       style={{ cursor: "pointer" }}
-      onClick={() =>  window.open("https://actua-o-mori.vercel.app/", "_blank")}
+      onClick={() =>  window.open;
       className="project-card"
     >
       <img
