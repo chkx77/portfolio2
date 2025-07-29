@@ -173,17 +173,17 @@ function LandingPage() {
         alt="Mini gestión negocios"
         draggable={false}
       />
-      <h3>📊 Mini gestión negocios (PHP)</h3>
-      <p>CRUD simple para comercios.</p>
+      <h3>Actua o muere!</h3>
+      <p>Juego de interpretaciones para grupos de teatro o similares. Echo en React, porteado tambien para Android</p>
     </li>
     <li
       title="Portafolio web personal con animaciones retro y estilo personalizado"
       style={{ cursor: "pointer" }}
-      onClick={() => alert("Próximamente...")}
+      onClick={() =>  window.open("https://actua-o-mori.vercel.app/", "_blank")}
       className="project-card"
     >
       <img
-        src="https://picsum.photos/id/1043/300/180"
+        src="16.png"
         alt="Portafolio"
         draggable={false}
       />
